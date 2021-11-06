@@ -19,7 +19,7 @@ char* intern_string_range(char* input_string_beginning, char* input_string_end) 
 
     // check if the strings are the same
     while (
-         (*input_string_iterator != 0)
+      input_string_iterator != input_string_end
       && (*intern_table_string_iterator != 0)
       && (*input_string_iterator == *intern_table_string_iterator)
     ) {
