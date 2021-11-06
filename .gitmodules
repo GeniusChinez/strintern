@@ -1,0 +1,3 @@
+[submodule "src/alloca"]
+	path = src/alloca
+	url = https://github.com/GeniusChinez/alloca.git
